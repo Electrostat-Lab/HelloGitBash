@@ -1,3 +1,5 @@
+#!/bin/bash
+
 git --version
 java --version 
 gcc --version
