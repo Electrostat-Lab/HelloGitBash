@@ -1,5 +1,5 @@
 #!/bin/bash
-
+uname
 git --version
 java --version 
 gcc --version
