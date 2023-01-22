@@ -8,5 +8,7 @@ else
    lib="libtest.dll"
 fi   
 
-gcc hello.c -o $lib
+gcc -pie hello.c -o $lib
+
+./$lib
 
