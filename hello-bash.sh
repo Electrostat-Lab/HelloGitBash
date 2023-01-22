@@ -1,5 +1,6 @@
 #!/bin/bash
 uname
+which bash
 git --version
 java --version 
 gcc --version
