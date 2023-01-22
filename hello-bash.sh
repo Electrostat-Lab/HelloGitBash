@@ -1,5 +1,5 @@
 #!/bin/bash
-uname --help
+uname -s
 if [[ `uname -o` == "GNU/Linux" ]]; then 
   echo 'Linux'
 elif [[ `uname` == "Darwin" ]]; then
