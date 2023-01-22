@@ -1,5 +1,6 @@
 #!/bin/bash
-if [[ `uname` == "Linux" ]]; then 
+uname -o
+if [[ `uname -o` == "GNU/Linux" ]]; then 
   echo 'Linux'
 elif [[ `uname` == "Darwin" ]]; then
   echo 'Macos'
