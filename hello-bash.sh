@@ -1,4 +1,4 @@
 #!/bin/bash
-uname -s
+uname -o
 
 
