@@ -1,4 +1,4 @@
 #!/bin/bash
-uname -o
-
+gcc hello.c 
+./a.out
 
