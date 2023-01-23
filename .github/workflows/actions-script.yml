@@ -28,4 +28,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: chmod +rwx ./hello-bash.sh && 	C:\Program Files\Git\bin\bash.exe hello-bash.sh && which bash 
+        run: chmod +rwx ./hello-bash.sh && C:\Program^ Files\Git\bin\bash.exe hello-bash.sh && which bash 
