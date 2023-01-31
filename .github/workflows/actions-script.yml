@@ -32,4 +32,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: java --version && chmod +rwx ./hello-bash.sh && gitbash.exe hello-bash.sh && which bash 
+        run: java --version && chmod +rwx ./hello-bash.sh && bash hello-bash.sh && which bash 
