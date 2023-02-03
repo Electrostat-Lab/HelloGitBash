@@ -1,12 +1,11 @@
+// Online C compiler to run C program online
 #include <stdio.h>
-#include <stdlib.h>
-#include <inttypes.h>
+#include<unistd.h>
 
 int main() {
-	
-	printf("%d\n", sizeof(long));
-	printf("%d\n", sizeof(long int));
-	printf("%d\n", sizeof(long long));
-    
+    // Write C code here
+    const char* buffer = (char*) calloc(1, sizeof(char));
+    printf("%s\n", getcwd(buffer, sizeof(buffer)));
+
     return 0;
 }
