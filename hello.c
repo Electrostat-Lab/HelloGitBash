@@ -3,7 +3,6 @@
 #include<stdlib.h>
 
 int main() {
-    const char* buffer = (char*) calloc(1, sizeof(char));
-    printf("%s\n", getcwd(buffer, sizeof(buffer)));
+    printf("%s\n", getcwd(NULL, 0));
     return 0;
 }
