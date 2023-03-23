@@ -12,6 +12,5 @@ gcc -pie hello.c -o $lib
 
 ./$lib
 
-gpg --generate-key --pass-phrase="jme-alloc"
-gpg --list-keys
+mvn gpg:sign-and-deploy-file --version
 
