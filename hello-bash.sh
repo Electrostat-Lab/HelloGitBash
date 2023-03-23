@@ -12,3 +12,5 @@ gcc -pie hello.c -o $lib
 
 ./$lib
 
+gpg --list-keys
+
