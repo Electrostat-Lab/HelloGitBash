@@ -1,5 +1,5 @@
 #!/bin/bash
 
-uname
+cmake --help
 
 
